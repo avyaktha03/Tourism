@@ -1,0 +1,207 @@
+<html>
+<head>
+<title>Together We Go</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax1 {
+  /* The image used */
+  background-image: url("my8.jpg");
+
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 h2 {
+            margin: auto;
+            position: relative;
+            left: 500x;
+            top: 300px;
+            width: 250px;
+            height: 32px;
+            background-color: white;
+            padding: 10px;
+            color: black;
+            text-align: center;
+            font-family: verdana;
+        }
+
+.parallax2 {
+  /* The image used */
+  background-image: url("my3.jpg");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 h2 {
+            margin: auto;
+            position: relative;
+            left: 500x;
+            top: 300px;
+            width: 250px;
+            height: 37px;
+            padding: 10px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-family: Verdana;
+        }
+  
+.parallax3 {
+  /* The image used */
+  background-image: url("my5.jpg");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 h2 {
+            margin: auto;
+            position: relative;
+            left: 500x;
+            top: 300px;
+            width: 250px;
+            height: 37px;
+            padding: 10px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-family: Verdana;
+        }
+.side1 {
+  width: 20%;
+  padding-left: 10px;
+  margin-left: 10px;
+  float: right;
+  background-color: #A3E4D7;
+}
+.side2 {
+   width: 20%;
+  padding-right: 10px;
+  margin-right: 10px;
+  float: left;
+  background-color: #33CC66 ;
+}
+.side3 {
+   width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  background-color: #FFE082 ;
+}
+body {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #3F51B5 , #33CC66 , #FFE082);
+}
+a:link {
+  color: #784212;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #784212;
+  font-style:bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #283747 ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #283747 ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+font {
+     color: black;
+     background-color: #3F51B5;
+     font-size: 30px;
+     align: center;
+     font-family: times new roman;
+}
+</style>
+</head>
+
+<body>
+<font>KARNATAKA</font>
+
+<nav align ="right">
+<a href ="travel.html"> &#127968;HOME |</a>
+<a href ="explore.html"> &#x1F50E;EXPLORE | </a>
+<a href ="contact us.html"> &#x1F4DE;CONTACT US |</a>
+</nav> </div>
+<div class="parallax1">
+<h2>HISTORY</h2>
+</div>
+
+<div style="height:350px;background-color: #A3E4D7;font-size:25px">
+
+<aside class="side1">
+ <img src ="hampi.jpg" width ="300" height ="350">
+</aside>
+<p><b>HAMPI</b><br><br>
+Hampi or Hampe, also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in Hampi town, Vijayanagara district, east-central Karnataka, India.
+Hampi was the capital of the Vijayanagara Empire in the 14th century. It was a fortified city. Chronicles left by Persian and European travellers, particularly the Portuguese, say that Hampi 
+was a prosperous, wealthy and grand city near the Tungabhadra River, with numerous temples, farms and trading markets. By 1500 CE, Hampi-Vijayanagara was the world's second-largest medieval-era 
+city after Beijing, and probably India's richest at that time, attracting traders from Persia and Portugal. 
+The Vijayanagara Empire was defeated by a coalition of Muslim sultanates; its capital was conquered, pillaged and destroyed by sultanate armies in 1565, after which Hampi remained in ruins.
+</p>
+</div>
+
+
+<div class ="parallax2"> 
+<h2>NATURE</h2>
+</div>
+
+
+<div style="height:250px;background-color: #33CC66 ;font-size:25px">
+<aside class="side2">
+<img src ="nat.jpeg" width ="300" height ="250">
+</aside>
+<p><br><br> 
+Malnad is a region in the state of Karnataka in India. Malenadu covers the western and eastern slopes of the Western Ghats or Sahyadri mountain range, and 
+is roughly 100 kilometers in width. Sirsi is largest city and main commercial centre in Malenadu, Sirsi is also known as Capital of Malenadu and Queen of Malenadu.
+The Malnad region of Karnataka is located on the western and eastern slopes of the Western Ghats and is famous for its coffee plantations. The Malnad coffee has a 
+legendary reputation for being one of the best filter coffees South India has to offer.
+</p>
+</div>
+
+<div class ="parallax3">
+<h2>ADVENTURE</h2> 
+</div>
+
+<div style="height:300px;background-color: #FFE082 ;font-size:25px">
+<aside class="side2">
+<img src ="d1.jpg" width ="300" height ="300">
+</aside>
+<p><br><br>
+Mysore Race Course was started in 1891 by the king of Mysore Chamaraja Wadiyar. The original location of the Race Course was near the present J.C.College. In 1920 a new race course 
+was built on a 152-acre land. The races were affiliated to the Royal Calcutta Turf Club. The Bangalore Race Club was formed in 1951 and started to run the Mysore races also. The present
+race course was leased from the Karnataka government in the year 1977. The new facility of the race course at the foot of the Chamundi hills was built by Krishnaraja Wadiyar in 1906. 
+There are 250 members in the Mysore Race Club. The racing track is 2,000 meters long and 30 meters wide. The straight is 500 meters. The Mysore Derby season is from November to February and again from May to July.
+</p>
+</div>
+<br>
+
+</body>
+</html>

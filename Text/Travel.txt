@@ -1,0 +1,123 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Together We Go</title>
+/head>
+<style>
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+overlay {
+    color:black;
+    position: absolute;
+    top:20px;
+    left:1200px;
+    font-size: 20px;    
+    z-index:1;
+   }
+a:link {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  font-style:bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ overlay1 {
+
+    color:white;
+    position: absolute;
+    top:450px;
+    left:630px;
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    font-style: italic;
+    border: 2px solid #fff;
+    padding: 6px 50px;
+    border-radius: 50px;       
+    z-index:1;  
+ }
+overlay2 {
+    color:  #660000;
+    text-shadow: 4px 4px 6px white;
+    position: absolute;
+    top:130px;
+    left:120px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Lucida Handwriting',cursive;  
+    z-index:1;
+   }
+ overlay3{
+    color: #660000;
+    text-shadow: 4px 4px 6px white;
+    position: absolute;
+    top:230px;
+    left:500px;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Handwriting',cursive;  
+    z-index:1;
+    
+   }
+
+overlay4 {
+    color:black;
+    position: absolute;
+    bottom:60px;
+    right:5px;
+    font-size: 20px;    
+    z-index:1;
+   }
+
+</style>
+</head>
+
+<body bgcolor="black">
+<video autoplay muted loop id="myVideo">
+  <source src="Vedio.mp4" type="video/mp4">
+</video>
+<overlay>
+ <p><a href="#">HOME</a>&nbsp&nbsp&nbsp<a href="#">CONTACT US</a></p> 
+</overlay>
+
+<overlay1> 
+<a href="Explore.html"><iconify-icon icon="entypo:magnifying-glass" style="color: white; font-size: 20px;" flip="horizontal"></iconify-icon>
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script></iconify-icon>
+ EXPLORE</a> 
+</overlay1>
+
+<overlay2>
+ <p>FROM HERE TO THERE</p>
+</overlay2>
+<overlay3>
+<p>Never Ending Footsteps</p>
+</overlap3>
+<overlay4>
+ <img id="home" src="foot.gif" width="250" height="240" >
+</overlay4>
+
+
+</body>
+</html>
